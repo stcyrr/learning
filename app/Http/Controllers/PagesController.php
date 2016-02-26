@@ -17,4 +17,10 @@ class PagesController extends Controller
                 'last'  => 'St-Cyr'
         ]);
     }
+
+    public function contact()
+    {
+        return view('pages.contact');
+    }
+
 }
