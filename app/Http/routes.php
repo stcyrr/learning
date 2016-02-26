@@ -19,6 +19,8 @@ Route::get('contact', function () {
     return view('pages.contact');
 });
 
+Route::get('about', 'PagesController@about');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
